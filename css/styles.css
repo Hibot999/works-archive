@@ -15,6 +15,7 @@ header {
     background-color: transparent; /* Remove the background color */
     border: none; /* Remove any border */
 }
+
 .header-image {
     width: 80%;
     height: auto;
@@ -67,19 +68,20 @@ footer {
 .gallery-item p {
     padding: 0.5rem;
 }
+
 .exo-custom-font {
     font-family: "Exo", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+
 .tajawal-extralight {
     font-family: "Tajawal", serif;
     font-weight: 200;
     font-style: normal;
-  }
+}
 
-  
 /* Add the fade-in class */
 .fade-in {
     opacity: 0; /* Start with the image hidden */
@@ -94,6 +96,7 @@ footer {
         opacity: 1; /* End with the image fully visible */
     }
 }
+
 .slogan {
     font-family: 'Exo', serif; /* Use your preferred font */
     font-size: 4rem; /* Make the text much bigger */
@@ -104,4 +107,15 @@ footer {
     margin-bottom: 4rem; /* Add space below the slogan */
     padding-left: 13rem; /* Add some padding to the left if needed */
     line-height: 1.2; /* Adjust line height to control spacing between lines */
+}
+
+/* Responsive styles for the slogan */
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 2rem; /* Adjust the font size for smaller screens */
+        padding-left: 1rem; /* Reduce padding for smaller screens */
+        text-align: center; /* Center-align the text for smaller screens */
+        margin-top: 1rem; /* Adjust top margin for smaller screens */
+        margin-bottom: 2rem; /* Adjust bottom margin for smaller screens */
+    }
 }
